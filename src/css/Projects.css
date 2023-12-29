@@ -1,0 +1,13 @@
+h1 {
+    text-align:center;
+}
+p {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height:150%;
+    font-size: larger;
+}
+img {
+    padding:2%;
+}
