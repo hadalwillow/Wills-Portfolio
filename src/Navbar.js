@@ -15,6 +15,9 @@ function Navbar() {
         <li>
           <Link to="/projects">Projects</Link>
         </li>
+        <li>
+          <Link to="/archive">Archive</Link>
+        </li>
       </ul>
     </nav>
   );
