@@ -23,6 +23,18 @@ function Archive() {
             your source so I can add it. If your modification is a subjective opinion, please keep it to yourself. I get enough of those volunteered to me by men who don't know 
             that you can put your hair up with a ribbon.
         </p>
+
+        <h2>Short, Practical Consumerism Tidbits</h2>
+        <p><ul>
+            <li><b>You can buy shampoo and conditioner in bar form</b> - I got mine off <a href="https://www.etsy.com/shop/NaturisticBath">Etsy</a>, 
+            but you can buy it at your local <a href="https://www.sprouts.com/healthy-living/shampoo-bars/">Sprouts.</a></li> After trying a dozen plus bar shampoos this Etsy seller is 
+            the only one that worked for me, so you may have to try a few before you find something that's compatible with your hair type.
+        </ul>
+        <ul>
+            <li><b>Aluminum powder in deoderant is not bad for you</b> - At least, not according to the <a href="https://www.cancer.org/cancer/risk-prevention/chemicals/antiperspirants-and-breast-cancer-risk.html">Cancer Society of America</a>. I could not find any links to health dangers 
+            when researching this, just advertisements claiming that their product doesn't contain aluminum and articles saying it's not dangerous. You are much more likely to be allergic to the ton of alternative powders like arrowroot used in 
+            aluminum free deorderants than you are to be allergic to aluminum, or allergic to all the oils added to help mask the fact that aluminum alternatives do not do as good of a job.</li>
+        </ul></p>
         </div>
     );
 }

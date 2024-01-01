@@ -1,4 +1,4 @@
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 1%;
@@ -6,12 +6,12 @@ ul {
     font-weight: bold;
   }
 
-  li {
+nav  li {
     display: inline;
     padding: 1%;
   }
 
-  a{
+nav  a{
     text-decoration: none;
     color: black;
     }
