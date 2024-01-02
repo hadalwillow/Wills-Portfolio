@@ -14,6 +14,7 @@ function Projects() {
                 </p>
                 <p>Resources Used: Preliminary research suggests that basin (or bed) baths are common in the medical industry to help people who cannot leave their bed for 
                     medical reasons. <a href="https://journals.lww.com/homehealthcarenurseonline/citation/2016/06000/reducing_the_risk_of_infection_when_using_a_bath.10.aspx">This</a> article was a fascinating tidbit. 
+                    Found a video of someone demonstrating how to use one! <a href="https://www.youtube.com/watch?v=NmA64p0Ymd4">Here!</a>
                 </p>
                 <p>Considerations: I am a highly sedentary person, so I will not need the same sweat protection as someone who works out a lot, or who does manual labor for their 
                     profession. 
