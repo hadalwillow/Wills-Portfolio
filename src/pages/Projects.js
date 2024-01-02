@@ -14,7 +14,12 @@ function Projects() {
                 </p>
                 <p>Resources Used: Preliminary research suggests that basin (or bed) baths are common in the medical industry to help people who cannot leave their bed for 
                     medical reasons. <a href="https://journals.lww.com/homehealthcarenurseonline/citation/2016/06000/reducing_the_risk_of_infection_when_using_a_bath.10.aspx">This</a> article was a fascinating tidbit. 
-                    
+                </p>
+                <p>Considerations: I am a highly sedentary person, so I will not need the same sweat protection as someone who works out a lot, or who does manual labor for their 
+                    profession. 
+                </p>
+                <p>Supplies: You'd better believe I'm going to use this as an excuse to treat myself to something pretty. I need a basin, washcloth, and a nice pitcher. Thinking 
+                    porcelain? Some ideas include <a href="https://www.ebay.com/itm/304580445836">this</a>, although too expensive, and <a href="https://www.etsy.com/listing/1592461445">this</a>.
                 </p>
             <h2>Personal Project Archive</h2>
             <h3>Plastic-Free Razors</h3>
