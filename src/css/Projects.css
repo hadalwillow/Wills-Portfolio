@@ -1,13 +1,12 @@
-h1, h2, h3 {
+#projects h1, h2, h3 {
     text-align:center;
 }
-p {
+#projects p {
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
-    line-height:150%;
     font-size: larger;
 }
-img {
+#projects img {
     padding:2%;
 }

@@ -1,16 +1,29 @@
-h1 {
-    text-align:center;
+#home {
+  display: flex; 
+  flex-direction: column; 
+  text-align:center;
 }
-h2 {
-    text-align:center;
+#home div {
+    padding-top:30%;
+    padding-bottom: 30%;
 }
-p {
-    text-align: center;
+#home p {
     padding-left: 10%;
     padding-right: 10%;
-    line-height:150%;
-    font-size: larger;
 }
-img {
-    padding:2%;
+#epipelagic {
+    background-color:rgb(154, 204, 216);
+}
+#mesopelagic {
+    background-color:rgb(94, 143, 155);
+}
+#bathypelagic {
+    background-color:rgb(54, 97, 107);
+}
+#abyssopelagic {
+    background-color:rgb(28, 66, 75);
+}
+#hadalpelagic {
+    background-color:rgb(7, 32, 37);
+    color:rgb(150, 172, 165);
 }
