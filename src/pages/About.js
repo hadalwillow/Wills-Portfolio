@@ -1,9 +1,10 @@
 import React from 'react';
+import '../css/About.css'
 
 function About() {
     return (
-        <div>
-        <h1>This is also not supremely impressive, I admit. But there is more incoming, I promise.</h1>
+        <div id="about">
+        <h1>Maybe I haven't filled this out yet. Maybe I'm highly enigmatic and mysterious. Who knows.</h1>
         </div>
     );
 }
