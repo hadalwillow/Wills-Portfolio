@@ -1,19 +1,23 @@
+nav {
+  position: fixed; 
+  width: 100%;
+}
 nav ul {
-    list-style-type: none;
     margin: 0;
-    padding: 1%;
-    background-color:rgb(189, 189, 189);
+    background-color:rgb(32,60,68);
+    padding-bottom: .3%;
     font-weight: bold;
+    color:rgb(150, 172, 165);
   }
 
 nav  li {
     display: inline;
-    padding: 1%;
+    padding-left: 5%;
   }
 
 nav  a{
     text-decoration: none;
-    color: black;
+    color:rgb(150, 172, 165);
     }
     button {
       all: unset
