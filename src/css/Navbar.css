@@ -5,9 +5,11 @@ nav {
 nav ul {
     margin: 0;
     background-color:rgb(32,60,68);
-    padding-bottom: .3%;
+    padding-bottom: .5%;
+    padding-top: .5%;
     font-weight: bold;
     color:rgb(150, 172, 165);
+    font-size: 150%;
   }
 
 nav  li {
@@ -19,6 +21,7 @@ nav  a{
     text-decoration: none;
     color:rgb(150, 172, 165);
     }
-    button {
+    
+button {
       all: unset
     }
