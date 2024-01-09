@@ -4,7 +4,7 @@ import '../css/Home.css';
 function Home() {
     return (
         <div id="home">
-        <h1>My name is Willow Phillips. Dive in.</h1>
+        <h1>My name is Willow Phillips.  I'm a creative with a passing interest in everything all the time. Welcome, please dive in.</h1>
         <div id="epipelagic">
             <h2>Epipelagic Zone - The Sunlight Zone</h2>
             <p> Surface level to 200 meters in depth.</p>
