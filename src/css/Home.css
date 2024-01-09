@@ -3,12 +3,13 @@
   flex-direction: column; 
   text-align:center;
 }
-#home div {
+#home .zone {
     padding-top:30%;
     padding-bottom: 30%;
 }
-#home audio {
-    text-align: center;
+#homeaudioplayer {
+    margin-right: auto;
+    margin-left: auto;
 }
 #home p {
     padding-left: 10%;
