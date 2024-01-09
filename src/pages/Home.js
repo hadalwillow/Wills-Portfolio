@@ -6,7 +6,7 @@ function Home() {
     return (
         <div id="home">
         <h1>My name is Willow Phillips.  I'm a creative with a passing interest in everything all the time. Welcome, please dive in.</h1>
-        <h2>(Optional Ambience)</h2>
+        <h2>(Optional Looping Ambience)</h2>
         <div id="homeaudioplayer"><audio controls autoplay loop src={underwater} type="audio/mp3">
                 Error: your web browser does not support this audio player.
             </audio></div>
