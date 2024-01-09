@@ -1,10 +1,15 @@
 import React from 'react';
 import '../css/Home.css';
+import underwater from '../media/underwater.mp3';
 
 function Home() {
     return (
         <div id="home">
         <h1>My name is Willow Phillips.  I'm a creative with a passing interest in everything all the time. Welcome, please dive in.</h1>
+        <h2>( ⬇ ⬇ ⬇ Optional Ambience ⬇ ⬇ ⬇ )</h2>
+        <audio controls autoplay loop src={underwater} type="audio/mp3">
+                Error: your web browser does not support this audio player.
+            </audio> 
         <div id="epipelagic">
             <h2>Epipelagic Zone - The Sunlight Zone</h2>
             <h3> Surface level to 200 meters below.</h3>
