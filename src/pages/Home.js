@@ -1,25 +1,25 @@
 import React from 'react';
+import { useState } from 'react';
 import '../css/Home.css';
 import underwater from '../media/underwater.mp3';
 import radioIMGStatic from "../media/Radio.png";
-//import radioIMGAnimation from "../media/Radio - Note Animation.gif"
+import radioIMGAnimation from "../media/Radio - Note Animation.gif"
 
 function Home() {
         
-        let radio = new Audio(underwater)
-        let radioPlaying = false;
+        let currentSong = new Audio(underwater)
+        let radioPlaying;
+        const [radioDisplay, setRadioDisplay] = useState(radioIMGStatic);
 
     const radioPlayButton = () => {
         if(radioPlaying) {
-            radio.pause()
-           // document.getElementById("playableRadio").src = {radioIMGStatic};
-          //  document.getElementById("playableRadio").alt = "Pixel Art Radio";
+            currentSong.pause()
             radioPlaying = false;
+            setRadioDisplay(radioIMGStatic);
         } else {
-            radio.play();
-          //  document.getElementById("playableRadio").src = {radioIMGAnimation};
-          //  document.getElementById("playableRadio").alt = "Animated Pixel Art Radio";
+            currentSong.play();
             radioPlaying = true;
+            setRadioDisplay(radioIMGAnimation);
         }
     }
 
@@ -27,7 +27,7 @@ function Home() {
         <div id="home">
         <h1>My name is Willow Phillips.  I'm a creative with a passing interest in everything all the time. Welcome, please dive in.</h1>
         <h2>Click the radio for ambience!</h2>
-        <img id="playableRadio" src={radioIMGStatic} alt="Pixel Art Radio" onClick={radioPlayButton} height="5%"></img>
+        <img src={radioDisplay} alt="Pixel Art Radio" onClick={radioPlayButton} height="5%"></img>
         
         <div class="zone" id="epipelagic">
             <h2>Epipelagic Zone - The Sunlight Zone</h2>

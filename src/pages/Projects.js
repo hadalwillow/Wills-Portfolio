@@ -6,7 +6,11 @@ function Projects() {
     return (
         <div id="projects">
             <h1>Projects</h1>
-            <h2>Current Projects - Coming soon! </h2>
+            <h2>Current Projects</h2>
+            <h3> Portfolio Website Buglist</h3>
+            <ul>
+                <li>The radio won't turn off on the main page, something to do with react useState</li>
+            </ul>
             <h2>Personal Project Archive</h2>
             <h3>Plastic-Free Razors</h3>
                 <p>My personal experience switching from Flamingo razors to an all-metal razor that takes straight blades instead of plastic heads. Factored into starting cost was the cost
