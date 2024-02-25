@@ -6,13 +6,13 @@ html, body {
   padding-top: 2%;  
   display: flex; 
   flex-direction: column; 
-  text-align:center;
+  text-align: center;
 }
 #home .zone {
     padding-top:30%;
     padding-bottom: 30%;
 }
-#homeaudioplayer {
+img {
     margin-right: auto;
     margin-left: auto;
 }

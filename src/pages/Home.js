@@ -1,15 +1,28 @@
 import React from 'react';
 import '../css/Home.css';
 import underwater from '../media/underwater.mp3';
+import radioIMG from "../media/Radio.png";
 
 function Home() {
+        let radio = new Audio(underwater)
+        let radioPlaying = false;
+
+    const radioPlayButton = () => {
+        if(radioPlaying === false) {
+            radio.play()
+            radioPlaying = true;
+        } else {
+            radio.pause()
+            radioPlaying = false;
+        }
+    }
+
     return (
         <div id="home">
         <h1>My name is Willow Phillips.  I'm a creative with a passing interest in everything all the time. Welcome, please dive in.</h1>
-        <h2>(Optional Looping Ambience)</h2>
-        <div id="homeaudioplayer"><audio controls autoplay loop src={underwater} type="audio/mp3">
-                Error: your web browser does not support this audio player.
-            </audio></div>
+        <h2>Click the radio for ambience!</h2>
+        <img src={radioIMG} alt="Pixel Art Radio" onClick={radioPlayButton} width="5%"></img>
+        
         <div class="zone" id="epipelagic">
             <h2>Epipelagic Zone - The Sunlight Zone</h2>
             <h3> Surface level to 200 meters below.</h3>
