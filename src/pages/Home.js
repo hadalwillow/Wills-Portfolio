@@ -1,19 +1,25 @@
 import React from 'react';
 import '../css/Home.css';
 import underwater from '../media/underwater.mp3';
-import radioIMG from "../media/Radio.png";
+import radioIMGStatic from "../media/Radio.png";
+//import radioIMGAnimation from "../media/Radio - Note Animation.gif"
 
 function Home() {
+        
         let radio = new Audio(underwater)
         let radioPlaying = false;
 
     const radioPlayButton = () => {
-        if(radioPlaying === false) {
-            radio.play()
-            radioPlaying = true;
-        } else {
+        if(radioPlaying) {
             radio.pause()
+           // document.getElementById("playableRadio").src = {radioIMGStatic};
+          //  document.getElementById("playableRadio").alt = "Pixel Art Radio";
             radioPlaying = false;
+        } else {
+            radio.play();
+          //  document.getElementById("playableRadio").src = {radioIMGAnimation};
+          //  document.getElementById("playableRadio").alt = "Animated Pixel Art Radio";
+            radioPlaying = true;
         }
     }
 
@@ -21,7 +27,7 @@ function Home() {
         <div id="home">
         <h1>My name is Willow Phillips.  I'm a creative with a passing interest in everything all the time. Welcome, please dive in.</h1>
         <h2>Click the radio for ambience!</h2>
-        <img src={radioIMG} alt="Pixel Art Radio" onClick={radioPlayButton} height="5%"></img>
+        <img id="playableRadio" src={radioIMGStatic} alt="Pixel Art Radio" onClick={radioPlayButton} height="5%"></img>
         
         <div class="zone" id="epipelagic">
             <h2>Epipelagic Zone - The Sunlight Zone</h2>
