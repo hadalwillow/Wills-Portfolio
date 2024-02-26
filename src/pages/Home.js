@@ -8,7 +8,7 @@ import radioIMGAnimation from "../media/Radio - Note Animation.gif"
 function Home() {
         
         let currentSong = new Audio(underwater)
-        let radioPlaying;
+        let radioPlaying = false;
         const [radioDisplay, setRadioDisplay] = useState(radioIMGStatic);
 
     const radioPlayButton = () => {

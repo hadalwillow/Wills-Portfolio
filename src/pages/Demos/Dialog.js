@@ -1,22 +1,17 @@
 import React from 'react';
-
+import "../../css/Dialog.css"
+import WillowBase from "../../media/WillowBase.png";
 
 function Dialog() {
+
+    let dialogText = "Hello! This is more text asdioujhapoisdhpasudhfiasuhdfiauhwef9hwe9spfh9spa8ehfasodifjhpasudhfiasuhdfioasuhfahewf98ha9p8hefp9awehf9pashefp"
+
     return (
         <div id="dialog">
-            <h1>Projects</h1>
-            <h2>Current Projects</h2>
-            <h3> Portfolio Website Buglist</h3>
-            <ul>
-                <li>The radio won't turn off on the main page, something to do with react useState</li>
-            </ul>
-            
-            <h2>Personal Project Archive</h2>
-            <h3>Plastic-Free Razors</h3>
-                <p>My personal experience switching from Flamingo razors to an all-metal razor that takes straight blades instead of plastic heads. Factored into starting cost was the cost
-                    of both razors. It is important, as with all personal projects, to keep in mind that these results are very specific to me. I use a razor head for a total of one month 
-                    before I switch it out with another one, for example. I am also very clumsy, and cannot use a more simple, and therefor cheaper, straight razor. 
-                </p>
+            <div id="dialogbox">
+                <div id="textCSS"><p>{dialogText}</p></div>
+                <div id="characterbox"><img id="talkingCharacter" src={WillowBase} alt="Willow Base Character Expression"></img></div>
+            </div>
         </div>
     );
 }
