@@ -3,23 +3,27 @@ import { useState } from 'react';
 import underwater from '../../media/audio/underwater.mp3';
 import radioIMGStatic from "../../media/img/Radio.png";
 import radioIMGAnimation from "../../media/img/Radio - Note Animation.gif"
+import useSound from 'use-sound';
 
 
 function Radio() {
         
-    let currentSong = new Audio(underwater)
-    let radioPlaying = false;
+    const [play, { stop }] = useSound(underwater);
+    let radioPlaying;
     const [radioDisplay, setRadioDisplay] = useState(radioIMGStatic);
 
 const radioPlayButton = () => {
+    console.log("the radio was clicked");
     if(radioPlaying) {
-        currentSong.pause()
+        stop();
         radioPlaying = false;
         setRadioDisplay(radioIMGStatic);
+        console.log("The radio is off");
     } else {
-        currentSong.play();
+        play();
         radioPlaying = true;
         setRadioDisplay(radioIMGAnimation);
+        console.log("The radio is on");
     }
 }
     return (
