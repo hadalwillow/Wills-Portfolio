@@ -1,5 +1,5 @@
 import React from 'react';
-import Graph1 from '../media/razorcostanalysis.png';
+import Graph1 from '../media/img/razorcostanalysis.png';
 import '../css/Projects.css';
 import { Link } from "react-router-dom";
 import Feed from './Demos/Feed';

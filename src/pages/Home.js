@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import '../css/Home.css';
-import underwater from '../media/underwater.mp3';
-import radioIMGStatic from "../media/Radio.png";
-import radioIMGAnimation from "../media/Radio - Note Animation.gif"
+import underwater from '../media/audio/underwater.mp3';
+import radioIMGStatic from "../media/img/Radio.png";
+import radioIMGAnimation from "../media/img/Radio - Note Animation.gif"
 
 function Home() {
         

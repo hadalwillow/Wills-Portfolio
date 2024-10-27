@@ -1,6 +1,6 @@
 import React from 'react';
 import "../../css/Dialog.css"
-import WillowBase from "../../media/WillowBase.png";
+import WillowBase from "../../media/img/WillowBase.png";
 
 function Dialog() {
 
