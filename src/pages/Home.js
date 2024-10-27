@@ -49,6 +49,7 @@ function Home() {
             <h2>Hadalpelagic Zone - The Hadal Zone</h2>
             <p>(also known as - The Trenches)</p>
             <h3>6000 to 11000 meters below sea level.</h3>
+                <h2>Welcome to the bottom of the ocean, where I've made my humble abode </h2>
         </div>
         </div>
     );

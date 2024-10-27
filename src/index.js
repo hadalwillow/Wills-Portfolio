@@ -5,7 +5,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Archive from "./pages/Archive";
-import Dialog from "./pages/Demos/Dialog"
+import Dialog from "./pages/Demos/Dialog";
+import Feed from "./pages/Demos/Feed";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="archive" element={<Archive />} />
           <Route path="dialog" element={<Dialog />} />
+          <Route path="feed" element={<Feed />} />
         </Route>
       </Routes>
     </BrowserRouter>
