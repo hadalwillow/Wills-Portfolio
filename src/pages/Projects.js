@@ -10,8 +10,7 @@ function Projects() {
             <h2>Current Projects</h2>
             <h3> Portfolio Website Buglist</h3>
             <ul>
-                <li>The radio won't turn off on the main page, something to do with react useState</li>
-                <li>Dialog box is close to complete but text needs to be able to fill the box instead of disappearing</li>
+                <li>Revamp the aesthetic</li>
             </ul>
             <h3><Link to="/dialog">Dialog box simulator</Link></h3>
             
