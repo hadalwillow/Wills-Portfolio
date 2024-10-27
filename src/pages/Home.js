@@ -1,33 +1,15 @@
 import React from 'react';
-import { useState } from 'react';
 import '../css/Home.css';
-import underwater from '../media/audio/underwater.mp3';
-import radioIMGStatic from "../media/img/Radio.png";
-import radioIMGAnimation from "../media/img/Radio - Note Animation.gif"
+import Radio from './Demos/Radio';
 
 function Home() {
-        
-        let currentSong = new Audio(underwater)
-        let radioPlaying = false;
-        const [radioDisplay, setRadioDisplay] = useState(radioIMGStatic);
 
-    const radioPlayButton = () => {
-        if(radioPlaying) {
-            currentSong.pause()
-            radioPlaying = false;
-            setRadioDisplay(radioIMGStatic);
-        } else {
-            currentSong.play();
-            radioPlaying = true;
-            setRadioDisplay(radioIMGAnimation);
-        }
-    }
 
     return (
         <div id="home">
         <h1>My name is Willow Phillips.  I'm a creative with a passing interest in everything all the time. Welcome, please dive in.</h1>
         <h2>Click the radio for ambience, then dive by scrolling down</h2>
-        <img src={radioDisplay} alt="Pixel Art Radio" onClick={radioPlayButton} height="5%"></img>
+        {<Radio />}
         
         <div class="zone" id="epipelagic">
             <h2>Epipelagic Zone - The Sunlight Zone</h2>
