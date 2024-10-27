@@ -26,7 +26,7 @@ function Home() {
     return (
         <div id="home">
         <h1>My name is Willow Phillips.  I'm a creative with a passing interest in everything all the time. Welcome, please dive in.</h1>
-        <h2>Click the radio for ambience!</h2>
+        <h2>Click the radio for ambience, then dive by scrolling down</h2>
         <img src={radioDisplay} alt="Pixel Art Radio" onClick={radioPlayButton} height="5%"></img>
         
         <div class="zone" id="epipelagic">
