@@ -3,8 +3,12 @@ import Graph1 from '../media/img/razorcostanalysis.png';
 import '../css/Projects.css';
 import { Link } from "react-router-dom";
 import Feed from './Demos/Feed';
+import useSound from 'use-sound';
+import pageTurn from '../media/audio/pageturn.mp3'
 
 function Projects() {
+    const [playPageTurn] = useSound(pageTurn)
+
     return (
         <div id="projects">
             <h1>Projects</h1>
@@ -13,7 +17,7 @@ function Projects() {
             <ul>
                 <li>Revamp the aesthetic</li>
             </ul>
-            <h3><Link to="/dialog">Dialog box simulator</Link></h3>
+            <h3 onMouseDown={playPageTurn}><Link to="/dialog">Dialog box simulator</Link></h3>
             <h3>Twitter Feed with Mutliple Accounts Test</h3>
             (Notes: Can only pull one feed per embed. Mutliple embeds?)
             {<Feed />}
