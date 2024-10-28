@@ -8,7 +8,7 @@ function Home() {
     return (
         <div id="home">
         <h1>My name is Willow Phillips.  I'm a creative with a passing interest in everything all the time. Welcome, please dive in.</h1>
-        <h2>Click the radio for ambience, then dive by scrolling down</h2>
+        <h2>Click the radio for ambience (Double click to turn off), then dive by scrolling down</h2>
         {<Radio />}
         
         <div class="zone" id="epipelagic">
