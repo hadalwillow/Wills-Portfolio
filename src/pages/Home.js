@@ -13,7 +13,7 @@ function Home() {
         
         <div class="zone" id="epipelagic">
             <h2>Epipelagic Zone - The Sunlight Zone</h2>
-            <h3> Surface level to 200 meters below.</h3>
+            <h3> Surface level to 200 meters below sea level.</h3>
         </div>
         <div class="zone" id="mesopelagic">
             <h2>Mesopelagic Zone - The Twilight Zone</h2>
